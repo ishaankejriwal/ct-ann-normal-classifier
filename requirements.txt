@@ -1,0 +1,21 @@
+# Core deep learning stack
+torch==2.5.1
+torchvision==0.20.1
+
+# Data processing and metrics
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.6.1
+scipy==1.15.3
+
+# Imaging and visualization
+opencv-python==4.11.0.86
+pillow==11.0.0
+matplotlib==3.10.3
+seaborn==0.13.2
+
+# Training utilities
+tqdm==4.67.1
+
+# Optional utilities used by the codebase
+PyYAML==6.0.2
