@@ -1,0 +1,59 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE and OS artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and runtime outputs
+logs/
+metrics/
+split_summaries/
+gradcams/
+gradcam_outputs/
+gradcam_videos/
+attention_outputs/
+
+# Model checkpoints and binary artifacts
+saved_models/
+model fold paths/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+
+# Large generated image/video/tensor data
+extracted_frames/
+extracted_frames_aug/
+preprocessed_frames/
+preprocessed_frames_aug/
+reconstructed/
+json/
+
+# Project-specific generated folders
+cnnGRU_gradcams/
+gradcamw/
+
+# Optional: local test/cache directories
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Keep source code, scripts, and metadata CSV tracked by default
